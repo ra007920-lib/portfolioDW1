@@ -1,0 +1,165 @@
+body {
+    /*background image criado em https://pattern.monster/*/
+    background-color: #2D0B00;
+    background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='69.141' height='40' patternTransform='scale(1.5) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='%232d0b00ff'/><path d='M69.212 40H46.118L34.57 20 46.118 0h23.094l11.547 20zM57.665 60H34.57L23.023 40 34.57 20h23.095l11.547 20zm0-40H34.57L23.023 0 34.57-20h23.095L69.212 0zM34.57 60H11.476L-.07 40l11.547-20h23.095l11.547 20zm0-40H11.476L-.07 0l11.547-20h23.095L46.118 0zM23.023 40H-.07l-11.547-20L-.07 0h23.094L34.57 20z' stroke-width='0.5' stroke='%23fff0eb15' fill='none'/></pattern></defs><rect width='100%' height='100%' fill='url(%23a)'/></svg>");
+    background-attachment: fixed;
+    color: #FFF0EB;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #1a0600;
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    border: 1px solid #3d1405;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #FFF0EB;
+}
+
+header h1 {
+    color: #FFF0EB;
+}
+
+header p {
+    color: #d1bebc;
+}
+
+nav {
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+
+nav a {
+    color: #FFF0EB;
+    margin: 0 8px;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #ebd3cd;
+    border-radius: 4px;
+    background-color: rgba(255, 240, 235, 0.05);
+    transition: 0.2s;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #2D0B00;
+    background-color: #FFF0EB;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #FFF0EB;
+    color: #2D0B00;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    background-image: 
+        linear-gradient(rgba(45, 11, 0, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(45, 11, 0, 0.03) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+li img {
+    vertical-align: middle;
+    margin-right: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+main h2, main h3 {
+    color: #2D0B00;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ebd3cd;
+    margin: 20px 0;
+}
+
+/* Projetos */
+article {
+    background-color: #f7e6e1;
+    padding: 15px;
+    border: 1px solid #ebd3cd;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+article a {
+    color: #70260e;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+form {
+    background-color: #f7e6e1;
+    padding: 20px;
+    border: 1px solid #ebd3cd;
+    border-radius: 6px;
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #c2aba5;
+    border-radius: 4px;
+    background-color: #FFF0EB;
+    color: #2D0B00;
+    margin-top: 5px;
+}
+
+input:focus {
+    background-color: #ffffff;
+    border-color: #2D0B00;
+    outline: none;
+}
+
+
+button {
+    padding: 10px 25px;
+    background-color: #2D0B00;
+    color: #FFF0EB;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4a1705;
+}
+
+#mensagemSucesso {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #ebd3cd;
+}

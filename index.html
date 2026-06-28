@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio Iago Gil</title>
+</head>
+<body>
+    <header>
+        <img src="fotoperfil.png" alt="Foto de Iago Montanhini Gil" class="profile-pic">
+        <h1>Iago Montanhini Gil</h1>
+        <p>Estudante de Sistemas de Informação - Libertas Faculdades Integradas</p>
+    </header>
+
+    <nav>
+        <a href="https://github.com/Monthaine" target="_blank">GitHub</a>
+        <a href="https://br.linkedin.com/in/iago-montanhini-gil-85841a148" target="_blank">LinkedIn</a>
+    </nav>
+
+    <main>
+        <div id="sobre">
+            <h2>Sobre mim</h2>
+            <p>
+                Sou estudante do 1º período de Sistemas de Informação. Tenho interesse na área de tecnologia,
+                principalmente em programação, desenvolvimento web e segurança da informação.
+            </p>
+        </div>
+
+        <hr>
+        <div id="habilidades">
+            <h2>Habilidades</h2>
+            /* foi utilizado https://shields.io/badges para criar os badges */
+            <ul>
+                <li>
+                    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"> 
+                    - Básico (conceitos básicos da linguagem e lógica de programação)
+                </li>
+                <li>
+                    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"> 
+                    - Básico 
+                </li>
+                <li>
+                    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"> 
+                    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"> 
+                    - Básico (Estruturação e Estilização)
+                </li>
+            </ul>
+            <h2>Interesses</h2>
+            <ul>        
+                <li>
+                    <img src="https://img.shields.io/badge/Foco-Backend-0055aa?style=flat-square" alt="Backend"> 
+                    - Desenvolvimento Backend e APIs
+                </li>
+                <li>
+                    <img src="https://img.shields.io/badge/DevOps-💡-orange?style=flat-square" alt="DevOps"> 
+                    - Infraestrutura e DevOps
+                </li>
+                <li>
+                    <img src="https://img.shields.io/badge/Cybersecurity-🔒-red?style=flat-square" alt="Cibersegurança"> 
+                    - Segurança da Informação
+                </li>
+                <li>
+                    <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux"> 
+                    - Sistemas Operacionais e Terminal
+                </li>
+            </ul>
+        </div>
+        <hr>
+
+        <div id="certificacao">
+            <h2>Certificações</h2>
+            <ul>
+                <li>Introdução à Ciência de Dados - Santander Universidades</li>
+                <li>Introdução à análise de Dados - Microsoft Power BI - Fundação Bradesco</li>
+                <li>Preparando dados para análises - Microsoft Power BI - Fundação Bradesco</li>
+                <li>Desenvolvimento Orientado a Objetos Utilizando a Linguagem Python - Fundação Bradesco</li>
+                <li>Criar um site simples usando HTML, CSS E JAVASCRIPT - Fundação Bradesco</li>
+                <li>Introdução à Programação Orientada a Objetos (POO) - Fundação Bradesco</li>
+                <li>Introdução à Python - Santander Universidades</li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div id="projetos">
+            <h2>Meus Projetos</h2>
+            <article>
+                <h3>Calculadora Simples em Python utilizando Tkinter</h3>
+                <p>Projeto desenvolvido em Python (com biblioteca Tkinter) com todas as funcionalidades básicas de uma calculadora: soma, subtração, multiplicação e divisão. O projeto também conta com a alteração de modo claro e escuro, interface visual, botão com função de apagar caractere e limpar (C).</p>
+                <a href="https://github.com/Monthaine/estudos-python/tree/main/projetos%20iniciante/calculadora" target="_blank">Acesse o projeto da calculadora</a>
+            </article>
+            <article>
+                <h3>Controle Bancário utilizando Python</h3>
+                <p>Projeto de controle bancário simples utilizando Python e conhecimentos em Programação Orientada a Objetos. O projeto possui alimentação de dados de clientes e sua respectiva conta, além de poder realizar operações básicas de saques, extratos e depósitos na página principal.</p>
+                <a href="https://github.com/Monthaine/estudos-python/tree/main/projetos%20iniciante/controle-bancario" target="_blank">Acesse o projeto do controle bancário</a>
+            </article>
+            <article>
+                <h3>Site de Review de Filmes utilizando HTML e CSS</h3>
+                <p>Projeto de site utilizando conceitos de HTML e CSS. O site possui comunicação entre página principal e suas sessões, além de navegação, área de review com imagem de filmes, notas, resumo e link para trailer.</p>
+                <a href="https://github.com/Monthaine/DesenvolvimentoWebI/tree/main/site_de_review_de_filmes" target="_blank">Acesse o projeto do site</a>
+            </article>
+        </div>
+
+        <hr>
+
+        <div id="contato">
+            <h2>Contato</h2>
+
+            <form id="meuFormulario" action="#" method="POST">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seu.email@exemplo.com">
+                </div>
+
+                <br>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <p id="mensagemSucesso"></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>2026 - Portfólio de Iago Montanhini Gil</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
